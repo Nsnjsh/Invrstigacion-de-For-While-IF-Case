@@ -1,0 +1,50 @@
+Estructura For
+La inicialización es una expresión simple, normalmente una asignación a la variable de control del bucle de un valor inicial. La condición es una expresión lógica o de comparación que determina el fin del bucle. El incremento es una expresión simple que modifica la variable de control al final de cada vuelta.
+ 
+ El funcionamiento de la estructura for es el siguiente:
+ 
+
+ 
+	1) Se evalúa la expresión de inicialización.
+ 	 
+	2) Se evalúa la condición. Si el resultado es falso, termina la ejecución de la estructura for. Si es verdadero, sigue por el paso 3.
+ 	 
+	3) Se ejecuta el bloque de instrucciones dentro de la estructura.
+	4) Se evalúa la expresión final, que normalmente altera la variable de control, y se vuelve al paso segundo.
+
+ 
+ Variando las tres expresiones de la estructura for, se pueden realizar diferentes tipos de bucles.
+(Ej: break o return)
+
+Estructura While
+
+Un bucle while tiene asociado un bloque de sentencias que se ejecutarán secuencialmente mientras la condición de entrada al bucle sea cierta. La condición se evalúa al comienzo de la estructura. Esto supone que el bloque de instrucciones puede no ejecutarse ninguna vez si la condición es inicialmente falsa.
+
+Imprimir en pantalla la palabra “Hola”, mientras se presione en número 1.
+
+Estructura IF
+un condicional if, es una estructura que nos posibilita definir las acciones a ejecutar si se cumple cierta condición y de ese modo modificar la ejecución de tareas en un programa según se necesite.
+
+Ejemplo"Escribir un programa en C que lea una edad e indique si la persona puede votar o no
+
+Estructura Case
+La función CASE selecciona una entre un conjunto de expresiones a evaluar y devuelve el valor de retorno de la expresión seleccionada como su valor.
+
+
+dim dia
+dia = inputbox ("dime un dia de la semana")
+SELECT CASE dia
+CASE 1:
+   msgbox("El dia es LUNES")
+CASE 2:
+   msgbox("El dia es MARTES")
+CASE 3:
+   msgbox("El dia es MIERCOLES")
+CASE 4:
+   msgbox("El dia es JUEVES")
+CASE 5:
+   msgbox("El dia es VIERNES")
+CASE 6:
+   msgbox("El dia es SABADO")
+CASE 7:
+   msgbox("El dia es DOMINGO")
